@@ -3,6 +3,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     margin-left:5%;
     margin-right:5%;
+    min-width:1200px;
 }
 
 a{
@@ -58,7 +59,7 @@ main h2{
     text-decoration:underline;
 }
 
-/* Imagen de SAn Marcos */
+/* Imagen de San Marcos */
 .imagenes{
     display: flex;
     justify-content:center;
@@ -96,10 +97,33 @@ main h2{
 }
 
 
-/*  */
+/* Section Especificaciones */
 
-/*  */
+.datos{
+    width:850px;
+    margin-left:30px;
+    display:flex;
+    justify-content:space-between;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding-left:10px;
+    padding-right:10px;
+}
+.datos h3{
+    font-weight: bold;
+    padding-top:5px;
+    padding-bottom:5px;
+}
 
+.datos p{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+/* Section Sumilla */
+.Sumilla p{
+    margin-right: 70px;
+    text-align:justify;
+}
 /*  */
 
 /* Metodologia */
@@ -138,13 +162,12 @@ tbody td{
 }
 
 thead {
-    background: url(leopardskin.jpg);
     color: white;
     text-shadow: 1px 1px 1px black;
 } 
 
 i{
-    color:red; 
+    /* color:red;  */
     font-size:40px;
 }
 
